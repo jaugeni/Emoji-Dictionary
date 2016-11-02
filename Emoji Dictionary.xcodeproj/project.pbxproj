@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		935F2F881DC95F35007B40F0 /* DefinitionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F2F871DC95F35007B40F0 /* DefinitionVC.swift */; };
 		93927DCB1DC947BF00F43A68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93927DCA1DC947BF00F43A68 /* AppDelegate.swift */; };
 		93927DCD1DC947BF00F43A68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93927DCC1DC947BF00F43A68 /* ViewController.swift */; };
 		93927DD01DC947BF00F43A68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93927DCE1DC947BF00F43A68 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		935F2F871DC95F35007B40F0 /* DefinitionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionVC.swift; sourceTree = "<group>"; };
 		93927DC71DC947BF00F43A68 /* Emoji Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93927DCA1DC947BF00F43A68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93927DCC1DC947BF00F43A68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		935F2F891DC95F42007B40F0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				93927DCC1DC947BF00F43A68 /* ViewController.swift */,
+				935F2F871DC95F35007B40F0 /* DefinitionVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		93927DBE1DC947BF00F43A68 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +65,8 @@
 		93927DC91DC947BF00F43A68 /* Emoji Dictionary */ = {
 			isa = PBXGroup;
 			children = (
+				935F2F891DC95F42007B40F0 /* Controllers */,
 				93927DCA1DC947BF00F43A68 /* AppDelegate.swift */,
-				93927DCC1DC947BF00F43A68 /* ViewController.swift */,
 				93927DCE1DC947BF00F43A68 /* Main.storyboard */,
 				93927DD11DC947BF00F43A68 /* Assets.xcassets */,
 				93927DD31DC947BF00F43A68 /* LaunchScreen.storyboard */,
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				935F2F881DC95F35007B40F0 /* DefinitionVC.swift in Sources */,
 				93927DCD1DC947BF00F43A68 /* ViewController.swift in Sources */,
 				93927DCB1DC947BF00F43A68 /* AppDelegate.swift in Sources */,
 			);
@@ -302,6 +314,7 @@
 				93927DDB1DC947BF00F43A68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
