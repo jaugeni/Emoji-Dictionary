@@ -48,10 +48,7 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
         defVC.emoji = sender as! Emoji
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+
     
     func makeEmojiArry() -> [Emoji] {
         let emoji1 = Emoji()
